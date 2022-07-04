@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Abril Fatface", cursive;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+}
+
+.first-text {
+  color: orangered;
+}
+
+.top-banner {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+}
+
+.banner-text h1 {
+  font-size: 70px;
+  margin-top: 10%;
+}
+
+.half-width {
+  width: 50%;
+  margin-left: 20px;
+}
+
+.banner-image img {
+  width: 80%;
+}
+
+.first-para {
+  margin-bottom: 50px;
+}
+a {
+  background-image: linear-gradient(tomato, orange);
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+}
