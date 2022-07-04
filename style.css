@@ -18,33 +18,58 @@ p {
   color: orangered;
 }
 
-.top-banner {
-  width: 100vw;
-  height: 100%;
+.flex {
   display: flex;
+  margin-bottom: 20px;
 }
 
 .banner-text h1 {
   font-size: 70px;
-  margin-top: 10%;
+  margin-top: 20%;
 }
-
+h2 {
+  font-size: 50px;
+}
 .half-width {
   width: 50%;
-  margin-left: 20px;
+  padding-left: 20px;
 }
 
-.banner-image img {
-  width: 80%;
+.half-width img {
+  width: 90%;
+  object-fit: cover;
 }
 
 .first-para {
   margin-bottom: 50px;
 }
-a {
+.link-button {
   background-image: linear-gradient(tomato, orange);
-  padding: 10px;
+  padding: 15px 40px;
   text-decoration: none;
   color: white;
-  border-radius: 10px;
+  font-weight: 800;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.heading-two {
+  font-size: 50px;
+  margin-top: 30%;
+}
+
+.heading-two-para {
+  width: 70%;
+  margin-bottom: 50px;
+}
+
+.second-banner {
+  background-image: url(./img/second-bg.png);
+  margin-top: 15%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.girl-image {
+  object-position: right;
+  margin-left: 80px;
 }
