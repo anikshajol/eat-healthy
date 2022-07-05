@@ -7,20 +7,19 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Abril Fatface", cursive;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 p {
   font-family: "Lato", sans-serif;
 }
 
-.first-text {
+.color {
   color: orangered;
 }
 
 .flex {
   display: flex;
-  /* margin-bottom: 20px; */
 }
 
 .banner-text h1 {
@@ -42,6 +41,8 @@ h2 {
 
 .first-para {
   margin-bottom: 50px;
+  margin-top: 20px;
+  width: 54%;
 }
 .link-button {
   background-image: linear-gradient(tomato, orange);
@@ -54,12 +55,14 @@ h2 {
 
 .heading-two {
   font-size: 50px;
-  margin-top: 30%;
+  padding-top: 10%;
+  padding-bottom: 5%;
 }
 
 .heading-two-para {
   width: 70%;
   margin-bottom: 50px;
+  padding-bottom: 5%;
 }
 
 .second-banner {
@@ -128,4 +131,21 @@ h2 {
 .social h2 {
   font-size: 30px;
   padding-bottom: 10px;
+}
+footer h3 {
+  font-size: 30px;
+  padding: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.footer-text {
+  padding-right: 10px;
+}
+
+footer {
+  width: 100%;
+  height: 30vh;
+  background-color: black;
+  color: gray;
+  text-align: center;
 }
